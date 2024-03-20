@@ -1,0 +1,149 @@
+{
+  "name": "wfrp4e-darto",
+  "title": "The World of Darto [WFRP4]",
+  "description": "This module includes information and tables about the wide world of Darto. It adds several new origins for humans from all across the old world, as well as new careers, talents, spells and actors.",
+  "author": "TuroTotoro, TheEvilMaster",
+  "authors": [
+    {
+      "name": "TuroTotoro",
+      "discord": "turototoro"
+    },
+    {
+      "name": "Jajuka",
+      "discord": "jajuka_1234"
+    },
+    {
+      "name": "TheEvilMaster"
+    }
+  ],
+  "url": ,
+  "flags": {},
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.4",
+  "compatibleCoreVersion": "9",
+  "system": ["wfrp4e"],
+  "scripts": [
+    "/scripts/subspecies-darto.js"
+  ],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "trappings-darto",
+      "label": "Trappings (Darto)",
+      "path": "packs/trappings-darto.db",
+      "type": "Item",
+      "module": "wfrp4e-darto",
+      "system": "wfrp4e",
+      "tags": [
+        "trapping"
+      ],
+      "private": false
+    },
+    {
+      "name": "careers-darto",
+      "label": "Careers (Darto)",
+      "path": "packs/careers-darto.db",
+      "type": "Item",
+      "module": "wfrp4e-darto",
+      "system": "wfrp4e",
+      "tags": [
+        "career"
+      ],
+      "private": false
+    },
+    {
+      "name": "bestiary-darto",
+      "label": "Bestiary (Darto)",
+      "path": "packs/bestiary-darto.db",
+      "type": "Actor",
+      "module": "wfrp4e-darto",
+      "system": "wfrp4e",
+      "private": false
+    },
+    {
+      "name": "journalentries-darto",
+      "label": "Darto Additional Rules",
+      "path": "packs/journalentries-darto.db",
+      "type": "JournalEntry",
+      "module": "wfrp4e-darto",
+      "system": "wfrp4e",
+      "private": false
+    },
+    {
+      "name": "careerentries-darto",
+      "label": "Darto Careers Description",
+      "path": "packs/careerentries-darto.db",
+      "type": "JournalEntry",
+      "module": "wfrp4e-darto",
+      "system": "wfrp4e",
+      "private": false
+    },
+    {
+      "name": "spells-darto",
+      "label": "Spells (Darto)",
+      "path": "packs/spells-darto.db",
+      "type": "Item",
+      "system": "wfrp4e",
+      "module": "wfrp4e-darto",
+      "tags": [
+        "spell"
+      ],
+      "private": false
+    },
+    {
+      "name": "talents-darto",
+      "label": "Talents (Darto)",
+      "path": "packs/talents-darto.db",
+      "type": "Item",
+      "system": "wfrp4e",
+      "module": "wfrp4e-darto",
+      "tags": [
+        "talent"
+      ],
+      "private": false
+    },
+    {
+      "name": "veterantalents-darto",
+      "label": "Veteran Talents (Darto)",
+      "path": "packs/vettalents-darto.db",
+      "type": "Item",
+      "system": "wfrp4e",
+      "module": "wfrp4e-darto",
+      "tags": [
+        "talent"
+      ],
+      "private": false
+    },
+    {
+      "name": "prayers-darto",
+      "label": "Prayers (Darto)",
+      "path": "./packs/prayers-darto.db",
+      "type": "Item",
+      "system": "wfrp4e",
+      "module": "wfrp4e-core",
+      "tags": [
+        "prayer"
+      ],
+      "private": false
+    },
+    {
+      "label": "Tables (Darto)",
+      "type": "RollTable",
+      "name": "tables-darto",
+      "path": "packs/tables-darto.db",
+      "system": "wfrp4e",
+      "module": "wfrp4e-darto"
+    }
+  ],
+  "system": [
+    "wfrp4e"
+  ],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "",
+  "download": "",
+  "protected": false,
+  "coreTranslation": false
+}
