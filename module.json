@@ -53,15 +53,6 @@
       "private": false
     },
     {
-      "name": "journalentries-darto",
-      "label": "Journal Entries (Darto)",
-      "path": "packs/journalentries-darto.db",
-      "type": "JournalEntry",
-      "module": "wfrp4e-darto",
-      "system": "wfrp4e",
-      "private": false
-    },
-    {
       "name": "talents-darto",
       "label": "Talents (Darto)",
       "path": "packs/talents-darto.db",
@@ -98,7 +89,7 @@
     {
       "name": "Darto",
       "sorting": "a",
-      "packs": ["tables-darto","veterantalents-darto","talents-darto","journalentries-darto","bestiary-darto","trappings-darto"],
+      "packs": ["tables-darto","veterantalents-darto","talents-darto","bestiary-darto","trappings-darto"],
       "color":  "#b0416f"
     }
   ],
