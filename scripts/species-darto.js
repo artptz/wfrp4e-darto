@@ -44,9 +44,9 @@ Hooks.on("setup", () => {
 
   WFRP4E.speciesMovement["marnuk"] = 4;
 
-  WFRP4E.speciesAge.marnuk = "2d10 + 14”
+  WFRP4E.speciesAge["marnuk"] = "2d10 + 14";
 
-  WFRP4E.speciesHeight.marnuk = {
+  WFRP4E.speciesHeight["marnuk"] = {
     feet : 6,
     inches : 0,
     die : "1d10"
