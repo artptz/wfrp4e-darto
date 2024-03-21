@@ -54,7 +54,7 @@
     },
     {
       "name": "journalentries-darto",
-      "label": "Darto Additional Rules",
+      "label": "Journal Entries (Darto)",
       "path": "packs/journalentries-darto.db",
       "type": "JournalEntry",
       "module": "wfrp4e-darto",
@@ -99,7 +99,7 @@
       "name": "Darto",
       "sorting": "a",
       "packs": ["tables-darto","veterantalents-darto","talents-darto","journalentries-darto","bestiary-darto","trappings-darto"],
-      "color":  "#d64b85"
+      "color":  "#b0416f"
     }
   ],
   "dependencies": [],
