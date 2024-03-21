@@ -16,11 +16,13 @@
       "name": "TheEvilMaster"
     }
   ],
-  "url": ,
+  "url": "https://github.com/artptz/wfrp4e-darto",
   "flags": {},
   "version": "1.0.0",
-  "minimumCoreVersion": "0.8.4",
-  "compatibleCoreVersion": "9",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
   "system": ["wfrp4e"],
   "scripts": [
     "/scripts/subspecies-darto.js"
@@ -42,18 +44,6 @@
       "private": false
     },
     {
-      "name": "careers-darto",
-      "label": "Careers (Darto)",
-      "path": "packs/careers-darto.db",
-      "type": "Item",
-      "module": "wfrp4e-darto",
-      "system": "wfrp4e",
-      "tags": [
-        "career"
-      ],
-      "private": false
-    },
-    {
       "name": "bestiary-darto",
       "label": "Bestiary (Darto)",
       "path": "packs/bestiary-darto.db",
@@ -69,27 +59,6 @@
       "type": "JournalEntry",
       "module": "wfrp4e-darto",
       "system": "wfrp4e",
-      "private": false
-    },
-    {
-      "name": "careerentries-darto",
-      "label": "Darto Careers Description",
-      "path": "packs/careerentries-darto.db",
-      "type": "JournalEntry",
-      "module": "wfrp4e-darto",
-      "system": "wfrp4e",
-      "private": false
-    },
-    {
-      "name": "spells-darto",
-      "label": "Spells (Darto)",
-      "path": "packs/spells-darto.db",
-      "type": "Item",
-      "system": "wfrp4e",
-      "module": "wfrp4e-darto",
-      "tags": [
-        "spell"
-      ],
       "private": false
     },
     {
@@ -117,18 +86,6 @@
       "private": false
     },
     {
-      "name": "prayers-darto",
-      "label": "Prayers (Darto)",
-      "path": "./packs/prayers-darto.db",
-      "type": "Item",
-      "system": "wfrp4e",
-      "module": "wfrp4e-core",
-      "tags": [
-        "prayer"
-      ],
-      "private": false
-    },
-    {
       "label": "Tables (Darto)",
       "type": "RollTable",
       "name": "tables-darto",
@@ -137,8 +94,13 @@
       "module": "wfrp4e-darto"
     }
   ],
-  "system": [
-    "wfrp4e"
+  "packFolders": [
+    {
+      "name": "Darto",
+      "sorting": "a",
+      "packs": ["tables-darto","veterantalents-darto","talents-darto","journalentries-darto","bestiary-darto","trappings-darto"],
+      "color":  "#d64b85"
+    }
   ],
   "dependencies": [],
   "socket": false,
