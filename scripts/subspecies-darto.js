@@ -1,13 +1,15 @@
-Hooks.on("setup", () => {
+Hooks.on("ready", () => {
+    game.wfrp4e.config.subspecies["human"] = {};
+    
     let config = {
         subspecies : {
-            human  :{}         
+            human  :{}
         }
         
     }
-
+    
     config.subspecies.human["aulici-darto"] = {
-        name : "Aulici",
+        name : "Aulic",
         skills : [
             "Animal Care",
             "Charm",
@@ -29,7 +31,7 @@ Hooks.on("setup", () => {
     }
 
     config.subspecies.human["horde-darto"] = {
-        name : "Orda",
+        name : "Horde",
         skills : [
             "Animal Care",
             "Charm Animal",

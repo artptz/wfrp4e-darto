@@ -1,12 +1,14 @@
 {
-  "name": "wfrp4e-darto",
-  "title": "The World of Darto [WFRP4]",
-  "description": "This module includes information and tables about the wide world of Darto. It adds several new origins for humans from all across the old world, as well as new careers, talents, spells and actors.",
-  "author": "TuroTotoro, TheEvilMaster",
+  "id": "wfrp4e-darto",
+  "title": "WFRP4e - The World of Darto",
+  "description": "A collection of content from the Hebrew world of Darto.",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "TuroTotoro",
-      "discord": "turototoro"
+      "discord": "turototoro",
+      "url": "https://github.com/artptz",
+      "flags": {}
     },
     {
       "name": "Jajuka",
@@ -16,87 +18,113 @@
       "name": "TheEvilMaster"
     }
   ],
-  "url": "https://github.com/artptz/wfrp4e-darto",
-  "flags": {},
-  "version": "1.0.0",
   "compatibility": {
-    "minimum": "10",
+    "minimum": "0.8.6",
     "verified": "11"
   },
-  "system": ["wfrp4e"],
+  "relationships": {
+    "systems": [{
+      "id": "wfrp4e",
+      "type": "system",
+      "manifest": "",
+      "compatibility": {
+        "verified": "7.0.3"
+      }
+    }]
+   },
   "scripts": [
-    "/scripts/subspecies-darto.js"
+      "/scripts/subspecies-darto.js",
+      "/scripts/species-darto.js"
   ],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
   "packs": [
     {
-      "name": "trappings-darto",
-      "label": "Trappings (Darto)",
-      "path": "packs/trappings-darto.db",
-      "type": "Item",
-      "module": "wfrp4e-darto",
-      "system": "wfrp4e",
-      "tags": [
-        "trapping"
-      ],
-      "private": false
-    },
-    {
-      "name": "bestiary-darto",
-      "label": "Bestiary (Darto)",
-      "path": "packs/bestiary-darto.db",
+      "name": "darto-actors",
+      "label": "Actors",
+      "path": "packs/actors",
       "type": "Actor",
-      "module": "wfrp4e-darto",
       "system": "wfrp4e",
-      "private": false
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
-      "name": "talents-darto",
-      "label": "Talents (Darto)",
-      "path": "packs/talents-darto.db",
+      "name": "darto-items",
+      "label": "Items",
+      "path": "packs/items",
       "type": "Item",
       "system": "wfrp4e",
-      "module": "wfrp4e-darto",
-      "tags": [
-        "talent"
-      ],
-      "private": false
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
-      "name": "veterantalents-darto",
-      "label": "Veteran Talents (Darto)",
-      "path": "packs/vettalents-darto.db",
-      "type": "Item",
-      "system": "wfrp4e",
-      "module": "wfrp4e-darto",
-      "tags": [
-        "talent"
-      ],
-      "private": false
+      "name": "darto-scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
-      "label": "Tables (Darto)",
+      "name": "darto-journal-entries",
+      "label": "Journal Entries",
+      "path": "packs/journal-entries",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "darto-macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "darto-roll-tables",
+      "label": "Roll Tables",
+      "path": "packs/roll-tables",
       "type": "RollTable",
-      "name": "tables-darto",
-      "path": "packs/tables-darto.db",
-      "system": "wfrp4e",
-      "module": "wfrp4e-darto"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "darto-adventures",
+      "label": "Module Adventures",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
     {
       "name": "Darto",
       "sorting": "a",
-      "packs": ["tables-darto","veterantalents-darto","talents-darto","bestiary-darto","trappings-darto"],
+      "packs": ["darto-actors","darto-items","darto-scenes","darto-journal-entries","darto-macros","darto-roll-tables","darto-adventures"],
       "color":  "#b0416f"
     }
   ],
-  "dependencies": [],
-  "socket": false,
   "manifest": "",
-  "download": "",
-  "protected": false,
-  "coreTranslation": false
+  "download": ""
 }

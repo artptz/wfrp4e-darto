@@ -1,6 +1,6 @@
 Hooks.on("setup", () => {
   const WFRP4E = game.wfrp4e.config
-  WFRP4E.species[“marnuk”] = “Marnuk”
+  WFRP4E.species["marnuk"] = "Marnuk"
 
   WFRP4E.speciesCharacteristics["marnuk"] = {
     "ws": "2d10+20",
@@ -16,23 +16,23 @@ Hooks.on("setup", () => {
   }
 
   WFRP4E.speciesSkills["marnuk"] = [
-    	      "Animal Care",
-            "Charm",
-            “Cool”,
-	          “Endurance”
-            “Evaluate”,
-            “Gossip”,
-            “Haggle”,
-	          “Intuition”,
-            “Lore” (Geology),
-            "Lore (Ulvik)”,
-            “Melee (Basic)”,
-            "Ranged (Throwing)”
+    "Animal Care",
+    "Charm",
+    "Cool",
+    "Endurance",
+    "Evaluate",
+    "Gossip",
+    "Haggle",
+    "Intuition",
+    "Lore (Geology)",
+    "Lore (Ulvik or Ereva)",
+    "Melee (Basic)",
+    "Ranged (Throwing)"
   ]
 
   WFRP4E.speciesTalents["marnuk"] = [
-    “Resistance (Cold)”,
-    “Savvy,Suave”,
+    "Resistance (Cold)",
+    "Savvy,Suave",
     3
   ]
 
@@ -44,11 +44,11 @@ Hooks.on("setup", () => {
 
   WFRP4E.speciesMovement["marnuk"] = 4;
 
-  WFRP4E.speciesAge["marnuk"] = "2d10 + 14";
+  WFRP4E.speciesAge.marnuk = "2d4 + 15"
 
-  WFRP4E.speciesHeight["marnuk"] = {
+  WFRP4E.speciesHeight.marnuk = {
     feet : 6,
     inches : 0,
-    die : "1d10"
+    die : "1d12"
   }
 });
