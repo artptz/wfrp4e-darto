@@ -7,7 +7,7 @@
     {
       "name": "TuroTotoro",
       "discord": "turototoro",
-      "url": "https://github.com/artptz",
+      "url": "https://github.com/artptz/wfrp4e-darto",
       "flags": {}
     },
     {
@@ -125,6 +125,6 @@
       "color":  "#b0416f"
     }
   ],
-  "manifest": "",
-  "download": ""
+  "manifest": "https://github.com/artptz/wfrp4e-darto/module.json",
+  "download": "https://github.com/artptz/wfrp4e-darto/archive/main.zip"
 }
