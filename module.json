@@ -125,6 +125,6 @@
       "color":  "#b0416f"
     }
   ],
-  "manifest": "https://github.com/artptz/wfrp4e-darto/module.json",
+  "manifest":"https://raw.githubusercontent.com/artptz/wfrp4e-darto/main/module.json",
   "download": "https://github.com/artptz/wfrp4e-darto/archive/main.zip"
 }
