@@ -8,7 +8,7 @@ Hooks.on("ready", () => {
         
     }
     
-    config.subspecies.human["aulici-darto"] = {
+    config.subspecies.human["human-aulic"] = {
         name : "Aulic",
         skills : [
             "Animal Care",
@@ -30,7 +30,7 @@ Hooks.on("ready", () => {
         ]
     }
 
-    config.subspecies.human["horde-darto"] = {
+    config.subspecies.human["human-horde"] = {
         name : "Horde",
         skills : [
             "Animal Care",
@@ -47,10 +47,33 @@ Hooks.on("ready", () => {
             "Ride (Horse)"
         ],
         talents : [
-            "Marksman, Rover",
+            "Roughrider, Rover",
             "Resistance (Cold)",
             "Stout-hearted, Very Resilient",
             2
+        ]
+    }
+    
+    config.subspecies.human["human-yennu"] = {
+        name : "Yennu",
+        skills : [
+            "Animal Care",
+            "Charm",
+            "Cool",
+            "Endurance",
+            "Evaluate",
+            "Gossip",
+            "Haggle",
+            "Language (Aulic)",
+            "Language (Asul)",
+            "Leadership",
+            "Lore (Local)",
+            "Melee (Basic)",
+            "Ranged (Bow)"
+        ],
+        talents : [
+            "Savvy, Suave",
+            4
         ]
     }
     

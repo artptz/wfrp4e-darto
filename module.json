@@ -2,7 +2,7 @@
   "id": "wfrp4e-darto",
   "title": "WFRP4e - The World of Darto",
   "description": "A collection of content from the Hebrew world of Darto.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
     {
       "name": "TuroTotoro",
@@ -19,7 +19,6 @@
     }
   ],
   "compatibility": {
-    "minimum": "0.8.6",
     "verified": "11"
   },
   "relationships": {
@@ -39,7 +38,7 @@
   "packs": [
     {
       "name": "darto-actors",
-      "label": "Actors",
+      "label": "Actors (Darto)",
       "path": "packs/actors",
       "type": "Actor",
       "system": "wfrp4e",
@@ -51,7 +50,7 @@
     },
     {
       "name": "darto-items",
-      "label": "Items",
+      "label": "Items (Darto)",
       "path": "packs/items",
       "type": "Item",
       "system": "wfrp4e",
@@ -63,7 +62,7 @@
     },
     {
       "name": "darto-scenes",
-      "label": "Scenes",
+      "label": "Scenes (Darto)",
       "path": "packs/scenes",
       "type": "Scene",
       "ownership": {
@@ -74,7 +73,7 @@
     },
     {
       "name": "darto-journal-entries",
-      "label": "Journal Entries",
+      "label": "Journal Entries (Darto)",
       "path": "packs/journal-entries",
       "type": "JournalEntry",
       "ownership": {
@@ -85,7 +84,7 @@
     },
     {
       "name": "darto-macros",
-      "label": "Macros",
+      "label": "Macros (Darto)",
       "path": "packs/macros",
       "type": "Macro",
       "ownership": {
@@ -96,7 +95,7 @@
     },
     {
       "name": "darto-roll-tables",
-      "label": "Roll Tables",
+      "label": "Roll Tables (Darto)",
       "path": "packs/roll-tables",
       "type": "RollTable",
       "ownership": {
@@ -107,7 +106,7 @@
     },
     {
       "name": "darto-adventures",
-      "label": "Module Adventures",
+      "label": "Module Adventures (Darto)",
       "path": "packs/adventures",
       "type": "Adventure",
       "ownership": {
