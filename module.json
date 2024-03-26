@@ -103,24 +103,13 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
-    },
-    {
-      "name": "darto-adventures",
-      "label": "Module Adventures (Darto)",
-      "path": "packs/adventures",
-      "type": "Adventure",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
     }
   ],
   "packFolders": [
     {
       "name": "Darto",
       "sorting": "a",
-      "packs": ["darto-actors","darto-items","darto-scenes","darto-journal-entries","darto-macros","darto-roll-tables","darto-adventures"],
+      "packs": ["darto-actors","darto-items","darto-scenes","darto-journal-entries","darto-macros","darto-roll-tables"],
       "color":  "#b0416f"
     }
   ],
