@@ -2,7 +2,7 @@
   "id": "wfrp4e-darto",
   "title": "WFRP4e - The World of Darto",
   "description": "A collection of content from the Hebrew world of Darto.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "authors": [
     {
       "name": "TuroTotoro",
@@ -34,6 +34,12 @@
   "scripts": [
       "/scripts/subspecies-darto.js",
       "/scripts/species-darto.js"
+  ],
+  "art":[
+      "/pcs/arelen.png",
+      "/pcs/inverno.png",
+      "/pcs/luce_magnetica.png",
+      "/pcs/ultimo.png"
   ],
   "packs": [
     {

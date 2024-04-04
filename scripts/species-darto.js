@@ -4,7 +4,7 @@ Hooks.on("setup", () => {
     WFRP4E.species = {
         "human":"Human",
         "marnuk":"Marnuk",
-        "inuk":"Inuk"
+        "nomad":"Nomad"
     }
     
     WFRP4E.speciesCharacteristics = {
@@ -32,7 +32,7 @@ Hooks.on("setup", () => {
             "wp": "2d10+20",
             "fel": "2d10+20"
         },
-        "inuk": {
+        "nomad": {
             "ws": "2d10+20",
             "bs": "2d10+20",
             "s": "2d10+30",
@@ -75,7 +75,7 @@ Hooks.on("setup", () => {
             "Melee (Basic)",
             "Ranged (Throwing)"
         ],
-        "inuk": [
+        "nomad": [
             "Animal Care",
             "Charm Animal",
             "Cool",
@@ -102,7 +102,7 @@ Hooks.on("setup", () => {
             "Savvy,Suave",
             3
         ],
-        "inuk" : [
+        "nomad" : [
             "Resistance (Cold)",
             "Very Strong",
             "Strider (Snow)",
@@ -113,31 +113,31 @@ Hooks.on("setup", () => {
     WFRP4E.speciesFate = {
         "human": 2,
         "marnuk": 2,
-        "inuk":2
+        "nomad":2
     }
 
     WFRP4E.speciesRes = {
         "human": 1,
         "mafrnuk": 1,
-        "inuk":2
+        "nomad":2
     }
 
     WFRP4E.speciesExtra = {
         "human": 3,
         "marnuk":3,
-        "inuk":2
+        "nomad":2
     }
 
     WFRP4E.speciesMovement = {
         "human": 4,
         "marnuk":4,
-        "inuk":5
+        "nomad":5
     }
 
     WFRP4E.speciesAge = {
         "human": "15+1d10",
         "marnuk": "2d6 + 15",
-        "inuk": "1d20+15"
+        "nomad": "1d20+15"
     }
 
     WFRP4E.speciesHeight = {
@@ -151,7 +151,7 @@ Hooks.on("setup", () => {
             inches : 0,
             die : "1d12"
         },
-        "inuk" : {
+        "nomad" : {
             feet : 7,
             inches : 0,
             die : "1d12"
