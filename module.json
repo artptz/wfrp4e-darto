@@ -2,7 +2,7 @@
   "id": "wfrp4e-darto",
   "title": "WFRP4e - The World of Darto",
   "description": "A collection of content from the Hebrew world of Darto.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "authors": [
     {
       "name": "TuroTotoro",
@@ -67,32 +67,10 @@
       "flags": {}
     },
     {
-      "name": "darto-scenes",
-      "label": "Scenes (Darto)",
-      "path": "packs/scenes",
-      "type": "Scene",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
       "name": "darto-journal-entries",
       "label": "Journal Entries (Darto)",
       "path": "packs/journal-entries",
       "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "darto-macros",
-      "label": "Macros (Darto)",
-      "path": "packs/macros",
-      "type": "Macro",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -115,7 +93,7 @@
     {
       "name": "Darto",
       "sorting": "a",
-      "packs": ["darto-actors","darto-items","darto-scenes","darto-journal-entries","darto-macros","darto-roll-tables"],
+      "packs": ["darto-actors","darto-items","darto-journal-entries","darto-roll-tables"],
       "color":  "#b0416f"
     }
   ],

@@ -22,14 +22,14 @@ Hooks.on("ready", () => {
             "Leadership",
             "Lore (Local)",
             "Melee (Basic)",
-            "Ranged (Bow)",
+            "Ranged (Bow)"
         ],
         talents : [
             "Suave, Savvy",
             4
         ]
     }
-
+    
     config.subspecies.human["human-horde"] = {
         name : "Horde",
         skills : [
@@ -49,7 +49,7 @@ Hooks.on("ready", () => {
         talents : [
             "Roughrider, Rover",
             "Resistance (Cold)",
-            "Stout-hearted, Very Resilient",
+            "Warrior Born, Very Resilient",
             2
         ]
     }
@@ -60,7 +60,6 @@ Hooks.on("ready", () => {
             "Animal Care",
             "Charm",
             "Cool",
-            "Endurance",
             "Evaluate",
             "Gossip",
             "Haggle",
@@ -74,6 +73,75 @@ Hooks.on("ready", () => {
         talents : [
             "Savvy, Suave",
             4
+        ]
+    }
+    
+    config.subspecies.human["human-shama"] = {
+        name : "Shama-i",
+        skills : [
+            "Consume Alcohol",
+            "Cool",
+            "Evaluate",
+            "Gossip",
+            "Haggle",
+            "Language (Aulic)",
+            "Lore (Local)",
+            "Melee (Basic)",
+            "Ranged (Bow)",
+            "Sail",
+            "Swim",
+            "Trade (Any)"
+        ],
+        talents : [
+            "Savvy, Sharp",
+            "Fisherman, Resistance (Cold)",
+            3
+        ]
+    }
+    
+    config.subspecies.human["human-diarchia"] = {
+        name : "Diarchic",
+        skills : [
+            "Charm",
+            "Evaluate",
+            "Gossip",
+            "Haggle",
+            "Intuition",
+            "Language (Aulic)",
+            "Language (Critarctic)",
+            "Leadership",
+            "Lore (Local)",
+            "Melee (Basic)",
+            "Ranged (Bow)",
+            "Sail"
+        ],
+        talents : [
+            "Savvy, Suave",
+            "Argumentative, Seasoned Traveler",
+            3
+        ]
+    }
+    
+    config.subspecies.human["human-asulian"] = {
+        name : "Asulian",
+        skills : [
+            "Animal Care",
+            "Charm",
+            "Cool",
+            "Evaluate",
+            "Gossip",
+            "Haggle",
+            "Language (Aulic)",
+            "Language (Yennu)",
+            "Leadership",
+            "Lore (Local)",
+            "Melee (Basic)",
+            "Ranged (Bow)"
+        ],
+        talents : [
+            "Warrior Born, Sharp",
+            "Stout-hearted, Tenacious",
+            3
         ]
     }
     
