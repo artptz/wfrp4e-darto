@@ -2,7 +2,7 @@
   "id": "wfrp4e-darto",
   "title": "WFRP4e - The World of Darto",
   "description": "A collection of content from the homebrew world of Darto.",
-  "version": "1.2.3",
+  "version": "2.0",
   "authors": [
     {
       "name": "TuroTotoro",
@@ -67,6 +67,17 @@
       "label": "Journal Entries (Darto)",
       "path": "packs/journal-entries",
       "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "darto-macros",
+      "label": "Macros (Darto)",
+      "path": "packs/macros",
+      "type": "Macro",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"

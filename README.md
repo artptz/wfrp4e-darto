@@ -15,21 +15,24 @@ v1.0 Initial setup
  - 2 species (Marnuks, Nomads), 1 Human subspecies (Aulic)
  - 2 Talents (Rune Conduit, Lord of the Pit) 
  - Journal entries on the world of Darto (Geography, Religion, Species)
+ 
 v1.1
  - 1 Career (Oracle)
  - 8 new Prayers (Hayfa)
  - Actors relating to the cult of Okynoy (5 Characters, 7 Cultists)
  - Update to Core module v8
-v1.2
+ 
+v2.0
  - 3 Careers (Sacred Hunter of Hayfa, Knight of the Rising Dawn, Cultist Priest Mage)
  - 2 Talents (The Heavy Hand of Hayfa, Cantor)
- - 2 Traits (Mark of Ooungnöe, Ooungnöe's Fire')
+ - 2 Traits (Mark of Ooungnöe, Ooungnöe's Fire)
  - 6 Creatures (Horrors of Ooungnöe, Blessed Beasts of Hayfa)
  - 5 magic items (Tacit Sisters, Iris's Scimitars, Shimmering Cloak, Shield of Arrow Attraction, Power Familiar)
- - X Miracles added to the Urdic and Velsaric pantheon
+ - 1 Macro to initialize NPC attributes
+ - 168 Miracles reassigned to the Urdic and Velsaric pantheon
  - script to automatically add Blessings from new deities to actor sheet
- - X Spells added to the Lore of Gwellavra, Oeq and Ooungnöe
- - script with Lore Effects added for the the Lore of Gwellavra, Oeq, Ooungnöe and Necromancy  
+ - 57 Spells added to the Chaos Lore of Gwellavra (27), Oeq (11), Ooungnöe (17) and Vylzhareth (2)
+ - script with Lore Effects added for the the Lore of Gwellavra, Oeq, Ooungnöe and Necromancy
  
 
 
