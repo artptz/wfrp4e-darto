@@ -2,7 +2,7 @@
   "id": "wfrp4e-darto",
   "title": "WFRP4e - The World of Darto",
   "description": "A collection of content from the homebrew world of Darto.",
-  "version": "2.0",
+  "version": "2.1",
   "authors": [
     {
       "name": "TuroTotoro",
@@ -19,6 +19,7 @@
     }
   ],
   "compatibility": {
+    "minimum": "12",
     "verified": "12"
   },
   "relationships": {
@@ -27,7 +28,8 @@
       "type": "system",
       "manifest": "",
       "compatibility": {
-        "verified": "8.1.3"
+        "minimum": "8.0.0",
+        "verified": "8.2.3"
       }
     }]
    },
@@ -35,6 +37,7 @@
       "/scripts/subspecies-darto.js",
       "/scripts/species-darto.js",
       "/scripts/blessings.js",
+      "/scripts/careers.js",
       "/scripts/lore_descriptions.js"
   ],
   "packs": [
@@ -74,6 +77,18 @@
       "flags": {}
     },
     {
+      "name": "darto-scenes",
+      "label": "Scenes (Darto)",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e",
+      "flags": {}
+    },
+    {
       "name": "darto-macros",
       "label": "Macros (Darto)",
       "path": "packs/macros",
@@ -100,8 +115,8 @@
     {
       "name": "Darto",
       "sorting": "a",
-      "packs": ["darto-actors","darto-items","darto-journal-entries","darto-roll-tables"],
-      "color":  "#b0416f"
+      "packs": ["darto-actors","darto-items","darto-journal-entries","darto-scenes","darto-macros","darto-roll-tables"],
+      "color":  "#2b2fa1"
     }
   ],
   "manifest":"https://raw.githubusercontent.com/artptz/wfrp4e-darto/main/module.json",

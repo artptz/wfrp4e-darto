@@ -23,16 +23,23 @@ v1.1
  - Update to Core module v8
  
 v2.0
- - 3 Careers (Sacred Hunter of Hayfa, Knight of the Rising Dawn, Cultist Priest Mage)
+ - 2 Careers (Sacred Hunter of Hayfa, Cultist Priest Mage)
  - 2 Talents (The Heavy Hand of Hayfa, Cantor)
  - 2 Traits (Mark of Ooungnöe, Ooungnöe's Fire)
  - 6 Creatures (Horrors of Ooungnöe, Blessed Beasts of Hayfa)
  - 5 magic items (Tacit Sisters, Iris's Scimitars, Shimmering Cloak, Shield of Arrow Attraction, Power Familiar)
  - 1 Macro to initialize NPC attributes
  - 168 Miracles reassigned to the Urdic and Velsaric pantheon
- - script to automatically add Blessings from new deities to actor sheet
+ - Blessing: effect to automatically add Blessings from new deities to actor sheet
+ - Invoke: effect to assign random Miracles to NPCs
  - 57 Spells added to the Chaos Lore of Gwellavra (27), Oeq (11), Ooungnöe (17) and Vylzhareth (2)
  - script with Lore Effects added for the the Lore of Gwellavra, Oeq, Ooungnöe and Necromancy
+ 
+ v2.1
+ - 1 Career (Knight of the Rising Dawn)
+ - script for alternative careers at creation
+ - corrected Martyr miracle effect
+ - Added Scenes pack
  
 
 
