@@ -18,22 +18,22 @@ v1.0 Initial setup
  
 v1.1
  - 1 Career (Oracle)
- - 8 new Prayers (Hayfa)
+ - 8 new Miracles of Hayfa
  - Actors relating to the cult of Okynoy (5 Characters, 7 Cultists)
  - Update to Core module v8
  
 v2.0
  - 2 Careers (Sacred Hunter of Hayfa, Cultist Priest Mage)
  - 2 Talents (The Heavy Hand of Hayfa, Cantor)
- - 2 Traits (Mark of Ooungnöe, Ooungnöe's Fire)
- - 6 Creatures (Horrors of Ooungnöe, Blessed Beasts of Hayfa)
+ - 2 Traits (Mark of Öungnooe, Öungnooe's Fire)
+ - 6 Creatures (Horrors of Öungnooe, Blessed Beasts of Hayfa)
  - 5 magic items (Tacit Sisters, Iris's Scimitars, Shimmering Cloak, Shield of Arrow Attraction, Power Familiar)
  - 1 Macro to initialize NPC attributes
  - 168 Miracles reassigned to the Urdic and Velsaric pantheon
  - Blessing: effect to automatically add Blessings from new deities to actor sheet
  - Invoke: effect to assign random Miracles to NPCs
- - 57 Spells added to the Chaos Lore of Gwellavra (27), Oeq (11), Ooungnöe (17) and Vylzhareth (2)
- - script with Lore Effects added for the the Lore of Gwellavra, Oeq, Ooungnöe and Necromancy
+ - 57 Spells added to the Chaos Lore of Gwellavra (27), Oeq (11), Öungnooe (17) and Vylzhareth (2)
+ - script with Lore Effects added for the the Lore of Gwellavra, Oeq, Öungnooe and Necromancy
  
  v2.1
  - 1 Career (Knight of the Rising Dawn)
@@ -41,7 +41,12 @@ v2.0
  - corrected Martyr miracle effect
  - Added Scenes pack
  
-
+ v2.2
+ - 2 Petty Spells
+ - 4 Miracles of Hayfa (+4 updated), 3 Miracles of Hyffer, 3 Miracles of Urdur, 1 Miracle of Oeq, 2 Miracles of Urmen, 1 Miracle of Urmn, 1 Miracle of Muurnas, 3 Miracles of Nourmas, 1 Miracle of Kharcash, 6 Miracles of Okynoy
+ - 1 Creature (Golem)
+ - 7 Grim Talents (Lvl 4 Spiriter Veteran Talents)
+ - Written all AKAs of Urdic Pantheon
 
 ## Legal Mentions
 Module Developers: TuroTotoro
