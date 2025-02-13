@@ -2,7 +2,7 @@
   "id": "wfrp4e-darto",
   "title": "WFRP4e - The World of Darto",
   "description": "A collection of content from the homebrew world of Darto.",
-  "version": "2.2",
+  "version": "3.0",
   "authors": [
     {
       "name": "TuroTotoro",
@@ -38,7 +38,8 @@
       "/scripts/species-darto.js",
       "/scripts/blessings.js",
       "/scripts/careers.js",
-      "/scripts/lore_descriptions.js"
+      "/scripts/spell_lore_arcane.js",
+      "/scripts/spell_lore_effect.js"
   ],
   "packs": [
     {
@@ -57,6 +58,18 @@
       "name": "darto-items",
       "label": "Items (Darto)",
       "path": "packs/items",
+      "type": "Item",
+      "system": "wfrp4e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "darto-spell-list",
+      "label": "Spell List (Darto)",
+      "path": "packs/spell-list",
       "type": "Item",
       "system": "wfrp4e",
       "ownership": {
@@ -115,7 +128,7 @@
     {
       "name": "Darto",
       "sorting": "a",
-      "packs": ["darto-actors","darto-items","darto-journal-entries","darto-scenes","darto-macros","darto-roll-tables"],
+      "packs": ["darto-actors","darto-items","darto-spell-list","darto-journal-entries","darto-scenes","darto-macros","darto-roll-tables"],
       "color":  "#2b2fa1"
     }
   ],

@@ -47,6 +47,12 @@ v2.0
  - 1 Creature (Golem)
  - 7 Grim Talents (Lvl 4 Spiriter Veteran Talents)
  - Written all AKAs of Urdic Pantheon
+ 
+ v3.0
+ - Added dynamic Spell Lore assignment for Arcane Spells with no Lore
+ - Added spells active effects : Acute Smell, Accelerate, Allegiance, Berserk, Disrupt Magic, Deft Hands, Dire Touch, Dispirit, Feel No Pain, Observe, Panic, Protective Aura, Rally, Slippery Ground, Smash, Steal Aura, Subvert Miracle, Word of Invulnerability, Ward,  Banish Undead, Word of Ending
+ - Added comprehensive spell list (Item Compendium)
+ - Added Spell RollTables for all lores and macro for Spell List generation
 
 ## Legal Mentions
 Module Developers: TuroTotoro
