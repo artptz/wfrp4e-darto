@@ -1,31 +1,35 @@
 Hooks.on("createItem", async (item, options, userId) => {
-    if (game.user.id !== userId) return; // if this code runs on any user that did not perform the original change, skip.
-    if (item.type !== "spell" || item.system.lore.value !== "") return; // if Item is not a Spell, or lore is not empty, skip.
-    if (!item.parent || !(item.parent instanceof Actor)) return; // if Item has no parent, or parent is not an Actor, skip.
-       
-    let choice = await ItemDialog.create(ItemDialog.objectToArray(game.wfrp4e.config.magicLores, item.img), 1, {title: item.parent.name, text:"Choose Lore"});
+    if (game.user.id !== userId) return; // Ensure only the creating user runs this
+    if (item.type !== "spell" || item.system.lore.value !== "") return;
+    if (!item.parent || !(item.parent instanceof Actor)) return;
+
+    let excludedLores = ["petty", "nurgle", "slaanesh", "tzeentch", "undivided", "runebound", "greatmaw"];
+    let validLores = Object.entries(game.wfrp4e.config.magicLores)
+        .filter(([key, _]) => !excludedLores.includes(key.toLowerCase()))
+        .reduce((obj, [key, value]) => (obj[key] = value, obj), {});
+
+    let choice = await ItemDialog.create(ItemDialog.objectToArray(validLores, item.img), 1, {title: item.parent.name, text:"Choose Lore"});
+    if (!choice.length) return;
+
+    let loreName = choice[0].name.toLowerCase(); // Convert lore name to lowercase
     
-    if (!choice.length) return; // If no lore was chosen, stop execution
+    // Retrieve the alternative name from the global config
+    let alternativeName = game.wfrp4e.config.arcaneNames[item.name]?.[loreName];
+    let updatedName = alternativeName ? `${alternativeName} (${item.name})` : `${item.name} (${loreName})`;
 
-    let loreName = choice[0].name;
-
-    // Special cases for certain lores
     let loreImgMap = {
-        "Gwellavra": "slaanesh",
-        "Oeq": "nurgle",
-        "Oungnooe": "tzeentch"
+        "gwellavra": "slaanesh",
+        "oeq": "nurgle",
+        "oungnooe": "tzeentch"
     };
+    let loreImg = loreImgMap[loreName] || loreName;
 
-    let loreImg = loreImgMap[loreName] || loreName.toLowerCase();
-
-    // Update item
     await item.update({
-        name: `${item.name} (${loreName})`,
+        name: updatedName,
         img: `modules/wfrp4e-core/icons/spells/${loreImg}.png`,
-        "system.lore.value": loreName.toLowerCase()
+        "system.lore.value": loreName
     });
 
-    // Update item effects images
     let effects = item.effects.contents;
     if (effects) {
         for (let effectItem of effects) {

@@ -2,7 +2,7 @@
   "id": "wfrp4e-darto",
   "title": "WFRP4e - The World of Darto",
   "description": "A collection of content from the homebrew world of Darto.",
-  "version": "3.0",
+  "version": "3.1",
   "authors": [
     {
       "name": "TuroTotoro",
@@ -39,6 +39,7 @@
       "/scripts/blessings.js",
       "/scripts/careers.js",
       "/scripts/spell_lore_arcane.js",
+      "/scripts/spell_lore_arcane_aliases.js",
       "/scripts/spell_lore_effect.js"
   ],
   "packs": [
@@ -127,8 +128,8 @@
   "packFolders": [
     {
       "name": "Darto",
-      "sorting": "a",
-      "packs": ["darto-actors","darto-items","darto-spell-list","darto-journal-entries","darto-scenes","darto-macros","darto-roll-tables"],
+      "sorting": "m",
+      "packs": ["darto-actors","darto-items","darto-spell-list","darto-journal-entries","darto-roll-tables","darto-macros","darto-scenes"],
       "color":  "#2b2fa1"
     }
   ],

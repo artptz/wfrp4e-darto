@@ -53,6 +53,12 @@ v2.0
  - Added spells active effects : Acute Smell, Accelerate, Allegiance, Berserk, Disrupt Magic, Deft Hands, Dire Touch, Dispirit, Feel No Pain, Observe, Panic, Protective Aura, Rally, Slippery Ground, Smash, Steal Aura, Subvert Miracle, Word of Invulnerability, Ward,  Banish Undead, Word of Ending
  - Added comprehensive spell list (Item Compendium)
  - Added Spell RollTables for all lores and macro for Spell List generation
+ 
+ v3.1
+ - Correct Mundane Aura
+ - Add Treekin and Spites creatures
+ - Improve Spell List Generation Macro and added Arcane Spell Aliases
+
 
 ## Legal Mentions
 Module Developers: TuroTotoro
