@@ -58,6 +58,10 @@ v2.0
  - Correct Mundane Aura
  - Add Treekin and Spites creatures
  - Improve Spell List Generation Macro and added Arcane Spell Aliases
+ 
+ v3.2
+ - Edited item images
+ - Changed folderstructure
 
 
 ## Legal Mentions

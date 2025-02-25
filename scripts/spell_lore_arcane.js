@@ -23,17 +23,25 @@ Hooks.on("createItem", async (item, options, userId) => {
         "oungnooe": "tzeentch"
     };
     let loreImg = loreImgMap[loreName] || loreName;
+    
+    // Update item image only if it is the default arcane spell image
+    if (item.img === "modules/wfrp4e-darto/icons/spells/arcane_spell.png") {
+        await item.update({
+            img: `modules/wfrp4e-core/icons/spells/${loreImg}.png`
+        });
+    }
 
     await item.update({
         name: updatedName,
-        img: `modules/wfrp4e-core/icons/spells/${loreImg}.png`,
         "system.lore.value": loreName
     });
 
     let effects = item.effects.contents;
     if (effects) {
         for (let effectItem of effects) {
-            await effectItem.update({ img: `modules/wfrp4e-core/icons/spells/${loreImg}.png` });
+            if (effectItem.img === "/modules/wfrp4e-darto/icons/spells/arcane_spell.png") {
+                await effectItem.update({ img: `modules/wfrp4e-core/icons/spells/${loreImg}.png` });
+            }
         }
     }
 });
