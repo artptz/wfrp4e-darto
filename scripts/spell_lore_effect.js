@@ -14,7 +14,7 @@ Hooks.on("init", () => {
       "oeq": "Oeq",
    };
     
-    config.magicWinds = {
+    config.magicWind = {
        "gwellavra": "Dhar",
        "oungnooe": "Dhar",
        "oeq": "Dhar",

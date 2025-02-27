@@ -62,7 +62,7 @@ v2.0
  v3.2
  - Edited item images
  - Changed folderstructure
-
+ - Improved Arcane Spell script
 
 ## Legal Mentions
 Module Developers: TuroTotoro
