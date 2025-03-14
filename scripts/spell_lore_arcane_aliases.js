@@ -501,7 +501,7 @@ Hooks.on("init", () => {
         "life": "Zephyr's Wings",
         "fire": "Wings of the Phoenix",
         "metal": "Silverlight Wings",
-        "heavens": "Wings of the Tempest",
+        "heavens": "Wings of Heaven",
         "light": "Wings of the Horizon",
         "shadows": "Wings of the Phantom",
         "death": "Ascension",

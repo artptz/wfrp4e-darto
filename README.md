@@ -60,12 +60,16 @@ v2.0
  - Improve Spell List Generation Macro and added Arcane Spell Aliases
  
  v3.2
- - Edited item images
- - Changed folderstructure
+ - Edited spell images
+ - Changed folder structure
  - Improved Arcane Spell script
+ 
+ v3.3
+ - Added Dryad Creature
+ - Added spells: Form of the Forest Spirit, Drain Life, Peace. Removed spells: Allegiance
 
-## Legal Mentions
-Module Developers: TuroTotoro
-Author: Brian Pallas, TuroTotoro 
+## Authors
+Module Development: akira
+Author: Brian Pallas, akira 
 Rules Development: Brian Pallas
 Contributors: jajuka_1234

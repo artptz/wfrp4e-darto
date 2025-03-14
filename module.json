@@ -2,13 +2,12 @@
   "id": "wfrp4e-darto",
   "title": "WFRP4e - The World of Darto",
   "description": "A collection of content from the homebrew world of Darto.",
-  "version": "3.2.1",
+  "version": "3.3",
   "authors": [
     {
-      "name": "TuroTotoro",
-      "discord": "turototoro",
-      "url": "https://github.com/artptz/wfrp4e-darto",
-      "flags": {}
+      "name": "akira",
+      "discord": "simplyakira",
+      "url": "https://github.com/artptz/wfrp4e-darto"
     },
     {
       "name": "Jajuka",
